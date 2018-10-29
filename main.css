@@ -1,0 +1,177 @@
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+.title{
+    text-align: center;
+}
+
+.ross {
+    position: relative;
+    top: 20px;
+}
+
+.reachel {
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+
+/*外边距合并
+当两个或更多垂直外边距相遇时，它们将形成一个外边距，这个外边距的高度等于它们之间最大的;
+*/
+
+.chandler {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.monica {
+    display: block;
+    margin-top: 40px;
+}
+
+.temperature{
+    height: 100px;
+    overflow: hidden;
+    background: #fefefe;
+    margin: 8px 8px;
+}
+
+.weather-icon {
+    display: inline-block;
+    float: left;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+.weather-temp{
+    position: relative;
+    font-size: 2em;
+    left: 26%;
+    top: 30px;
+}
+
+.weather-range{
+    position: relative;
+    display: inline-block;
+    float: right;
+    right: 10%;
+    top: 23px;
+}
+
+.weather-max{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.weather-min{
+    font-size: 1.2em;
+}
+
+.hour-info-list{
+    background: #fefefe;
+    margin: 8px 8px;
+}
+
+.hour-info{
+    height: 35px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.hour-info img{
+    width: 27px;
+    height: 27px;
+    padding-top: 5px;
+    padding-left: 15px; 
+}
+
+.hour-info span{
+    position: relative;
+    bottom: 5px;
+    font-size: 1.2em;
+}
+
+.suggestion{
+    background: #fefefe;
+    margin: 8px 8px;
+}
+
+.suggestion-item{
+    overflow: hidden;
+    height: 100px;
+}
+
+.suggestion-item img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 20px;
+}
+
+.suggestion-desc{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+
+.suggestion-desc .title{
+    line-height: 1.9em;
+}
+
+.suggestion-desc .content{
+    display: block;
+    width: 250px;
+    overflow: hidden;
+    line-height: 1.3em;
+}
+
+.forecast{
+    background: #fefefe;
+    margin: 8px 8px;
+}
+
+.forecast-item{
+    overflow: hidden;
+    height: 60px;;
+}
+
+.forecast-item img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+}
+
+.forecast-item .desc{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.forecast-item .date{
+    display: block;
+    font-size: 1.2em;
+}
+
+.forecast-item .detail{
+    font-size: 0.8em;
+}
+
+.forecast-item .temp{
+    position: relative;
+    top: 4px;
+    left: 22px;
+    font-size: 1.2em;
+}
